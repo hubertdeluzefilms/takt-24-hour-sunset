@@ -19,20 +19,26 @@
 </header>
 
 <main>
-  <!-- HERO (sans image pour l’instant) -->
-  <section class="screen" style="background:#0a0a0a;">
-    <div class="content center">
-      <h1 class="title-xxl red">24 HOUR SUNSET</h1>
-      <p class="subtitle">A PORTRAIT OF LOS ANGELES</p>
 
-      <div class="cta">
-<a class="btn" href="film.html#watch" data-scroll="watch">DÉCOUVRIR LE FILM</a>
-        <a class="btn ghost" href="installation.html">Voir l’installation</a>
+  <!-- HERO plein écran (image avec texte intégré) -->
+  <section class="screen bg" style="--bg:url('images/hero.jpg')">
+    <div class="shade"></div>
+
+    <!-- On ne remet PAS le titre en HTML (il est déjà dans l'image) -->
+    <div class="content center">
+      <div class="cta" style="margin-top:52vh;">
+        <a class="btn" href="film.html#watch">DÉCOUVRIR LE FILM</a>
+        <a class="btn ghost" href="installation.html">VOIR L’INSTALLATION</a>
       </div>
     </div>
   </section>
 
-  <!-- MANIFESTO -->
+  <!-- INTERLUDE visuel (optionnel) -->
+  <section class="screen bg" style="--bg:url('images/sunset.jpg')">
+    <div class="shade"></div>
+  </section>
+
+  <!-- MANIFESTO (texte du presskit) -->
   <section class="screen">
     <div class="content narrow center">
       <h2 class="title-xl red">A DEEP DIVE INTO THE HEART OF THE LOS ANGELES ART SCENE</h2>
@@ -41,8 +47,15 @@
         world famous art dealers, appraised curators and collectors, as well as the young upcoming artists.
       </p>
       <p class="muted">08/03/2024 — Private &amp; Confidential</p>
+
+      <div class="cta" style="margin-top:22px;">
+        <a class="btn ghost" href="assets/pdf/24HOURSUNSET_Presskit.pdf" target="_blank" rel="noopener">
+          OUVRIR LE PRESSKIT (PDF)
+        </a>
+      </div>
     </div>
   </section>
+
 </main>
 
 <footer class="footer">
