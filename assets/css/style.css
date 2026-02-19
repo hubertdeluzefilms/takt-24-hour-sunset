@@ -56,7 +56,7 @@ a:hover{opacity:.86}
 }
 
 .bg{
-  background-image: var(--bg);
+  background-image: url(var(--bg));
   background-size:cover;
   background-position:center;
 }
